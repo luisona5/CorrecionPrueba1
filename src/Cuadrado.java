@@ -25,6 +25,6 @@ public class Cuadrado {
     public void CuadradoArea(){
         area=lado1*lado1;
         System.out.println("Area: "+area);
-        System.out.println("------------------------------");
+
     }
 }

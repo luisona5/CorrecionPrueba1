@@ -20,18 +20,15 @@ public class Rectangulo {
     //---------metodo personalizado-------------
 
     public void Perimetro(){
-        System.out.println("Perimetro del Rectangulo");
-        System.out.println("base1: " + base);
-        System.out.println("altura1: " + altura);
+        System.out.println("\n-------RECTANGULO-------------");
+        System.out.println("base: " + base);
+        System.out.println("altura: " + altura);
         perimetro = (2*base)+(2*altura);
         System.out.printf("Perimetro es: "+ perimetro);
 
     }
     public void Area(){
-        System.out.println("\nArea del Rectangulo");
-        System.out.println("base: " + base);
-        System.out.println("Altura: " + altura);
         area = base*altura;
-        System.out.printf("Area  es: "+ area);
+        System.out.printf("\nArea  es: "+ area);
     }
 }
