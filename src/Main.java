@@ -14,5 +14,9 @@ public class Main {
         rectangulo1.Perimetro();
         rectangulo1.Area();
 
+        Circulo circulo1=new Circulo(3.15);
+        circulo1.Perimetro();
+        circulo1.Area();
+
     }
 }
