@@ -18,5 +18,9 @@ public class Main {
         circulo1.Perimetro();
         circulo1.Area();
 
+        Triangulo triangulo1=new Triangulo(2,3,4);
+        triangulo1.Perimetro();
+        triangulo1.Area();
+
     }
 }
