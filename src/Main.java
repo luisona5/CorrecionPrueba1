@@ -13,5 +13,9 @@ public class Main {
         cuadrado1.CuadradoPerimetro();
         cuadrado1.CuadradoArea();
 
+        Rectangulo rectangulo1=new Rectangulo(2,3);
+        rectangulo1.Perimetro();
+        rectangulo1.Area();
+
     }
 }
